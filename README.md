@@ -23,6 +23,11 @@ The Repo stores the weekly assignments of DSP course.
 * FFTW - http://www.fftw.org/ (TODO: allow for use of other FFT libs)
 * gnuplot_i - http://ndevilla.free.fr/gnuplot/ (for plotting with gnuplot, assumes you have gnuplot installed)
 
+### Install FFTW3
+`./configure`
+`make`
+`make install`
+That's all
 
 ##License
 
@@ -30,7 +35,7 @@ This open-source software is licensed under the MIT License. See the
 LICENSE file for details.
 
 ## Refer to
-miniDSP - https://github.com/wooters/miniDSP
-How to use the FFTW lib - http://hpc.ucla.edu/hoffman2/software/fftw.php#c
-Good Makefile template - https://sites.google.com/site/michaelsafyan/software-engineering/how-to-write-a-makefile
+* miniDSP - https://github.com/wooters/miniDSP
+* How to use the FFTW lib - http://hpc.ucla.edu/hoffman2/software/fftw.php#c
+* Good Makefile template - https://sites.google.com/site/michaelsafyan/software-engineering/how-to-write-a-makefile
 
