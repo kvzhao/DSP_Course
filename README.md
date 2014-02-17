@@ -32,4 +32,5 @@ LICENSE file for details.
 ## Refer to
 miniDSP - https://github.com/wooters/miniDSP
 How to use the FFTW lib - http://hpc.ucla.edu/hoffman2/software/fftw.php#c
+Good Makefile template - https://sites.google.com/site/michaelsafyan/software-engineering/how-to-write-a-makefile
 
