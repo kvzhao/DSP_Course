@@ -1,6 +1,6 @@
 #DSP_Course
 
-A repo storing the weekly assignments of DSP course.
+The Repo stores the weekly assignments of DSP course.
 
 ##Features
 * Basically, each homework will be coded by C language
@@ -13,7 +13,7 @@ A repo storing the weekly assignments of DSP course.
 * Plot using gnuplot_i (2.10)
 
 ###Analysis Tool
-* FFTW(3.3.333) for spectrum analysis
+* FFTW(3.3.3) for spectrum analysis
 
 ###File I/O Functions
 *
