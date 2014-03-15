@@ -1,6 +1,6 @@
 TARGET = dsp_fft
 CC = gcc
-CFLAGS = -O2 -lm -lfftw3
+CFLAGS = -O2 -lm -lfftw3 -g -pg
 INC = -I.
 LIB = -L.
 
