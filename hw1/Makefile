@@ -14,6 +14,8 @@ SRCQ3 = q3.c
 OBJQ3=$(SRCQ3:.c=.o) \
 	../plot/gnuplot_i.o
 
+all: q2 q3
+
 q2: $(OBJQ2)
 	${CC} $(OBJQ2) ${CFLAGS} ${INC} ${LIB} -o $(Q2)
 

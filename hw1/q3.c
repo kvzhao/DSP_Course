@@ -2,26 +2,24 @@
 /* Start reading here */
 #include <fftw3.h>
 #include "gnuplot_i.h"
-#define NUM_POINTS 1024
+#define NUM_POINTS 2096
 
 /* Never mind this bit */
 #include <stdio.h>
 #include <math.h>
 
-#define REAL 0
-#define IMAG 1
-#define SLEEP_LGTH  8
-#define TOL     0.000001
+#define SLEEP_LGTH  1
+#define TOL     0.0001
 
 double h_linspan[NUM_POINTS];
 double freq_linspan[NUM_POINTS];
 
 void Hf(unsigned int N, double f[NUM_POINTS], double H[NUM_POINTS]) {
     int i;
+    double den;
     for (i =0; i < NUM_POINTS; i++) {
-        if (sin(M_PI*f[i]) < TOL )
-            continue;
-        H[i] = sin(M_PI*(N+1)*f[i]) / sin(M_PI*f[i]);
+        den = sin(M_PI*f[i]);
+        H[i] = sin(M_PI*(N+1)*f[i]) / den;
     }
 }
 
